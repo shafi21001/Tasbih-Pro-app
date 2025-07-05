@@ -1,12 +1,12 @@
 #heading {
-    background-color: rgb(70, 90, 97);
+    background-color: rgb(90, 114, 122);
 }
 
 body {
     text-align: center;
     font-family: Arial, sans-serif;
     margin-top: 30px;
-    background-color: gray;
+    background-color: rgb(168, 168, 168);
 }
 
 input {
