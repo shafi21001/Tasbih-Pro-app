@@ -22,11 +22,15 @@ button {
     cursor: pointer;
 }
 
-#count {
+#counter {
+    color: blue;
+    font-size: xx-large;
+}
+
+#cntbtn {
     background-color: yellow;
 }
 
-#counter,
 #tasbih-count {
     color: blue;
 }
