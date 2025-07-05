@@ -1,0 +1,40 @@
+#heading {
+    background-color: rgb(70, 90, 97);
+}
+
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 30px;
+    background-color: gray;
+}
+
+input {
+    width: 60px;
+    margin: 5px;
+    text-align: center;
+}
+
+button {
+    padding: 8px 16px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#count {
+    background-color: yellow;
+}
+
+#counter,
+#tasbih-count {
+    color: blue;
+}
+
+.orange-text {
+    color: orange;
+}
+
+.green-text {
+    color: green;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tasbih Pro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2 id="heading">Tasbih Pro</h2>
+
+    <div>
+        <label for="maxCountInput">Count per Tasbih:</label>
+        <input type="number" id="maxCountInput" value="100" min="1">
+        <label for="goalTasbihInput">Tasbih Goal:</label>
+        <input type="number" id="goalTasbihInput" value="10" min="1">
+        <button onclick="setCustomSettings()">Set</button>
+    </div>
+
+    <h3>Count: <span id="counter">0</span> / <span id="max-count">100</span></h3>
+    <h3>Tasbihs Completed: <span id="tasbih-count">0</span></h3>
+    <h3 id="message" class="orange-text">In sha Allah! Keep counting to achieve your goal.</h3>
+
+    <button id="count" onclick="increase()">Count</button>
+    <button onclick="reset()">Reset</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
